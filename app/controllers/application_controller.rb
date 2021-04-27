@@ -1,6 +1,6 @@
 class ApplicationController < Sinatra::Base
 
-  configure do
+  configure do #is this how to load the file?
   	set :views, "app/views"
   	set :public_dir, "public"
   end
